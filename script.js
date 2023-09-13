@@ -4,7 +4,7 @@ const input = document.getElementById('input-box');
 const ol = document.getElementById('list-container');
 
 
-let todoItems = []
+let todoItems = getTodoFromLocalStorage();
 
 addbutton.addEventListener('click', addTodo);
 deletebutton.addEventListener('click', deleteTodo);
