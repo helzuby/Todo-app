@@ -1,5 +1,4 @@
 const addbutton = document.getElementById('add');
-const deletebutton = document.getElementById('delete');
 const input = document.getElementById('input-box');
 const ol = document.getElementById('list-container');
 
